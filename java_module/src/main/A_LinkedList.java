@@ -1,5 +1,7 @@
 package main;
 
+import java.util.LinkedList;
+
 public class A_LinkedList {
 
 /* Atomic unit of the linked list is the "node" (value and point)
@@ -13,4 +15,5 @@ public class A_LinkedList {
     - retrieving nodes ( because eache node is only aware of the next to it)
 */
 
+    LinkedList<String> ll = new LinkedList();
 }
