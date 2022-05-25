@@ -1,14 +1,29 @@
 package main;
 
+/*
+* Types of notation:
+*  -> Big O - O(N)
+*  -> Big Theta - Ω(N)
+*  -> Big Omega - Θ(N)
+* */
+
+
 public class Big_O {
 
     /*
-    The Big(o) notation is used to measure of:
+    The Big(o) notation is used to measure the efficiency/performance of algorithms in terms of:
      -> Runtime complexity of the method/algorithm
      -> Space complexity  of the method/algorithm
 
-     In an ideal world we want our algorithms to be super fast and scalable and take minimum amount of memory but unfortunately
-     that hardly if ever happens, most of the time we have to do a trade-off between saving time and saving space.
+    Asymptotic analysis of an algorithm is a method used to evaluate the performance of an algorithm in terms of input size,
+    we can very well conclude the follow scenarios :
+    - best case;
+    - average/expected case;
+    - worst case
+
+    In other words, we use asymptotic analysis to determine the time and space increase when the input size also increases,
+    in an ideal world we want our algorithms to be super fast and scalable and take minimum amount of memory but unfortunately
+    that hardly if ever happens, most of the time we have to do a trade-off between saving time and saving space.
 
     ###################################################################################################################
     Runtime complexity of the method/algorithm: how much an algorithm slows down as the input grows larger
