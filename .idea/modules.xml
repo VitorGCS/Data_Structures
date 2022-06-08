@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlgorithmsExercises/AlgorithmsExercises.iml" filepath="$PROJECT_DIR$/AlgorithmsExercises/AlgorithmsExercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data_Structures.iml" filepath="$PROJECT_DIR$/.idea/Data_Structures.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_module/java_module.iml" filepath="$PROJECT_DIR$/java_module/java_module.iml" />
     </modules>
